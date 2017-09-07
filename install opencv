@@ -1,0 +1,6 @@
+there are many issues installing opencv and making it work witj node.js
+this concrete solution worked for me:
+
+brew tap homebrew/science
+brew install opencv3 --with-contrib
+npm install --save-dev opencv
